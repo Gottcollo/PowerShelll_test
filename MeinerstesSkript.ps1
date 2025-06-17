@@ -1,13 +1,13 @@
-# Mein erstes PowerShell-Skript
+#Testskript1
 
-# Variablen definieren
-$name = "Samu"
+#Variablen definieren
+$name = "Samuelé"
 $alter = 32
-
-# Begrüßung und Vorstellung zusammensetzen
+#Variable Verwenden
 $begrüßung = "Hallo, mein Name ist $name."
 $vorstellung = "Ich bin $name und ich bin $alter Jahre alt."
-
-# Ausgabe
+$hobby = "Kurzgeschichten schreiben, Leute nerven und vieles mehr."
+#Ausgabe
 Write-Host $begrüßung
 Write-Host $vorstellung
+Write-host "Meine Hobbys sind: $hobby"
