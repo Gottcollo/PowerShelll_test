@@ -22,6 +22,8 @@ Get-NetAdapter | Select-Object Name, Status
 
 # Hintergrundfarbe setzen
 Set-ItemProperty -Path "HKCU:\Control Panel\Colors" -Name "Background" -Value "0 128 0"
+Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "WallpaperStyle" -Value "0"
+Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "Wallpaper" -Value ""
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters ,1 ,True
 
 # BGInfo herunterladen und starten
